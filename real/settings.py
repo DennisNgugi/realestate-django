@@ -138,5 +138,10 @@ MEDIA_URL = '/media/'
 
 MESSAGE_TAGS = {
     messages.ERROR: 'danger',
-
 }
+# Email PagesConfig
+EMAIL_HOST = 'smtp@gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'denongugi16@gmail.com'
+EMAIL_HOST_PASSWORD = 'd3nn1sngug1'
+EMAIL_USE_TLS = True
